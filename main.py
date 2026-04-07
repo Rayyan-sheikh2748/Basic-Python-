@@ -298,8 +298,35 @@
 #     print("no vowel is present in the text")
 
 
-a="madama"
-b=a[::-1]
-if a==b:
-    print("the string is a palindrome")
-else:    print("the string is not a palindrome")
+# a="madama"
+# b=a[::-1]
+# if a==b:
+#     print("the string is a palindrome")
+# else:    print("the string is not a palindrome")
+
+
+# functions---------------------------------------------------------
+
+# def greet(name):
+#     print(f"hello {name} how are you?")
+
+# greet("Alice")
+# greet("Bob")
+# greet("Charlie")
+# greet("David")
+
+# function in javascript -----
+"""
+function greet(name){
+console.log(`hello ${name} how are you?`);
+};
+"""
+
+# lembda functions---------------------------------------------------------
+# n = int(input("enter the number:"))
+# square = lambda n: n**2
+# print(square(n))
+
+
+
+
