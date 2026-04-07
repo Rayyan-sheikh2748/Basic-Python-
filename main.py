@@ -328,5 +328,73 @@ console.log(`hello ${name} how are you?`);
 # print(square(n))
 
 
+# practice functions---------------------------------------------------------
+
+# def greet(name):
+#     return f"hello {name} how are you?"
+# name = input("enter your name:")
+# print(greet(name))
+
+
+# def square(n):
+#     return n**2
+# print(square(5))
+# print(square(10))
+# print(square(43))
+
+# def area_rectangle(len,wid=10):
+#     return len * wid
+# print(area_rectangle(5))
+# print(area_rectangle(5, 20))
+
+# lambda function-----
+# add = lambda x,y: x + y
+# print(add(5, 10))
+# print(add(20, 30))
+
+# def factorial(n):
+#     if n == 0 or n == 1:
+#         return 1
+#     else:
+#         return n * factorial(n-1)
+# print(factorial(5))
+# print(factorial(0))
+# print(factorial(120))    
+
+
+# def sum_of_digits(n):
+#     if n==0:
+#         return 0
+#     else:
+#           return n%10 + sum_of_digits(n//10)
+# print(sum_of_digits(12345))
+# print(sum_of_digits(555524))
+
+
+# modules and pip---------------------------------------------------------
+
+# import math
+# print(math.sqrt(144 ))
+# print(math.sin(math.radians(90)))
+
+
+# import requests
+# response = requests.get("https://api.github.com")
+# print(response.status_code)
+# print(response.json())
+
+
+# variable scope---------------------------------------------------------
+
+# def increment():
+#     count = 0
+#     count +=1
+#     print(count)
+
+# increment()
+# increment()
+# increment()
+
+
 
 
