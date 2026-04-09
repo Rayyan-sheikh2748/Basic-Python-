@@ -395,6 +395,23 @@ console.log(`hello ${name} how are you?`);
 # increment()
 # increment()
 
+# def safe_devidi(a,b):
+#     if b==0:
+#         print("division by zero is not allowed")
+#     else:
+#         return a/b
+    
+# print(safe_devidi(10, 2))
+# print(safe_devidi(10, 0))    
+
+
+# list---------------------------------------------  
+
+marks = [85, 90, 78, 92, 88]
+print(marks)
+print(marks[0])
+print(marks[1:4])
+
 
 
 
