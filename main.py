@@ -431,4 +431,37 @@ console.log(`hello ${name} how are you?`);
 # table =[i*n for i in range(1,11)]
 # print(table)
 
+# tuples-----------------------------------------------------------
+# asign = (1, 2, 3, 4, 5)
+# # print(a)
+# # print(a[0])
 
+# """ tuples unpacking """
+
+# a,b,c,d,e = asign 
+# print(a)
+# print(b)    
+# print(c)
+# print(d)
+# print(e)
+
+
+# sets-----------------------------------------------------------
+
+# fruits = {"apple", "banana", "orange", "grape"}
+# # print(fruits)
+# # fruits.pop()
+# print(fruits)
+# fruits.add("kiwi")
+# print(fruits)
+# fruits.discard("banana")
+
+# dictionaries-----------------------------------------------------------
+
+# marks = {"Alice": 85, "Bob": 90, "Charlie": 78}
+# print(marks.values())
+# print(marks.keys())
+# print(marks.items())
+
+# table= {i: i**2 for i in range(1,11)}
+# print(table)
